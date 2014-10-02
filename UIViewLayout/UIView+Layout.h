@@ -2,7 +2,7 @@
 //  UIView+Layout.h
 //  UIViewLayout
 //
-//  Created by Jason Brennan on Oct-02-2014.
+//  Created by Sam and Jason in 2012-2014.
 //  Copyright (c) 2014 Hopscotch. All rights reserved.
 //
 
