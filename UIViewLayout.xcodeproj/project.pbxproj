@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CD0417A419DDBDE80046B15D /* UIViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0417A319DDBDE80046B15D /* UIViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD0417BB19DDBE360046B15D /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0417BA19DDBE360046B15D /* UIView+Layout.swift */; };
+		CD0417BE19DDC1670046B15D /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0417BC19DDC1670046B15D /* UIView+Layout.h */; };
+		CD0417BF19DDC1670046B15D /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0417BD19DDC1670046B15D /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD04179E19DDBDE80046B15D /* UIViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0417A219DDBDE80046B15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0417A319DDBDE80046B15D /* UIViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewLayout.h; sourceTree = "<group>"; };
-		CD0417BA19DDBE360046B15D /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		CD0417BC19DDC1670046B15D /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		CD0417BD19DDC1670046B15D /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +51,9 @@
 			isa = PBXGroup;
 			children = (
 				CD0417A319DDBDE80046B15D /* UIViewLayout.h */,
-				CD0417BA19DDBE360046B15D /* UIView+Layout.swift */,
 				CD0417A119DDBDE80046B15D /* Supporting Files */,
+				CD0417BC19DDC1670046B15D /* UIView+Layout.h */,
+				CD0417BD19DDC1670046B15D /* UIView+Layout.m */,
 			);
 			path = UIViewLayout;
 			sourceTree = "<group>";
@@ -71,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0417A419DDBDE80046B15D /* UIViewLayout.h in Headers */,
+				CD0417BE19DDC1670046B15D /* UIView+Layout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0417BB19DDBE360046B15D /* UIView+Layout.swift in Sources */,
+				CD0417BF19DDC1670046B15D /* UIView+Layout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
